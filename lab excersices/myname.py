@@ -3,4 +3,4 @@
 name=str(input("enter your name:"))
 age=int(input("enter age:"))
 
-print("hello my name is " +name + "and iam" +str(Age)+ "yearsold")
+print("hello my name is ", name, "and iam", age, "years old")
