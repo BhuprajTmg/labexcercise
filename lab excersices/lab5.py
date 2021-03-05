@@ -5,16 +5,27 @@
 # student, so they can get by with fewer than  desks.11 deska are also enought for the third group of 22 students.
 #So we need  desks in total.
 
+
 class1=int(input("enter the no. of student:"))
 class2=int(input("enter the no. of student:"))
 class3=int(input("enter the no. of student:"))
+choose1=input("choose class1,class2,class3").lower()
 
-n_std1=class1/2
-print(f"the no of desk required in class1 is: {n_std1}")
-n_std2=class2/2
-print(f"the no of desk required in class2 is: {n_std2}")
-n_std3=class3/2
-print(f"the no of desk required in class2 is: {n_std3}")
+if choose1==class1:
+    n_D_of_desk = class1 // 2
+    print(f"the number of desk required in class1 is: {n_D_of_desk}")
 
-sum=n_std1+n_std2+n_std3
-print("the no. of desk required in class is",sum)
+elif choose1==class2:
+    n_D_of_desk = class2// 2
+    print(f"the number of desk required in class1 is: {n_D_of_desk}")
+
+else:
+    n_D_of_desk = class3 // 2
+    print(f"the number of desk required in class1 is: {n_D_of_desk}")
+
+
+
+
+
+
+
