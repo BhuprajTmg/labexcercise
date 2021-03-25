@@ -1,4 +1,7 @@
-#To determine the BMI.
+#solve the following problems using python scripts. MAke sure you use appropriate variable names and comments.
+#when there is a final answer have oythoon print it to the screen.
+#A person's body mass index (BMI) is defined as:
+#BMI= mass in kg/(height in m)^2
 
 height=float(input("enter the heigh in feet:"))
 height1=height*0.3048000

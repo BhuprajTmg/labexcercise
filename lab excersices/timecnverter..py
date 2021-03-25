@@ -7,4 +7,3 @@ hour=((sec//60)//60)
 print(f"the total day for given second is {hour} hour")
 minute=(sec//60)
 print(f"the total minute for given second is {minute} minute")
-
